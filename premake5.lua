@@ -23,3 +23,6 @@ project "CPPJSONParser"
 	{
 		"src"
 	}
+
+	pchheader "pch.h"
+	pchsource "src/pch.cpp"

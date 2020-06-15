@@ -1,0 +1,26 @@
+
+{
+  "firstName":  "John",
+  "isAlive": true,
+  "age": 27,
+  "pi":  3.14,
+  "children": [],
+  "spouse": null,
+  "address": 
+  {
+    "city": "New York",
+    "state": "NY"
+  },
+  "phoneNumbers": 
+  [
+    {
+      "type": "home",
+      "number": "212 555-1234"
+    },
+    {
+      "type": "office",
+      "number": "646 555-4567"
+    }
+  ],
+  "array": [46, "string", 3.14, true, null]
+}
