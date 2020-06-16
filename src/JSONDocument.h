@@ -11,6 +11,6 @@ private:
 	void parseFile(std::string const& filepath);
 
 private:
-	JSONAttribute rootObject;
+	std::unique_ptr<JSONAttribute> rootObject;
 };
 

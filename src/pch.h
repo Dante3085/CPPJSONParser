@@ -8,3 +8,4 @@
 #include <stdexcept>
 #include <sstream>
 #include <fstream>
+#include <stack>

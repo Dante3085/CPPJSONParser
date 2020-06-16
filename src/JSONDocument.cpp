@@ -5,6 +5,7 @@
 
 JSONDocument::JSONDocument(std::string const& filepath)
 {
+	rootObject = std::make_unique<JSONAttribute>(JSONTypeId::JSON_OBJECT, JSONObject());
 	parseFile(filepath);
 }
 
@@ -16,5 +17,10 @@ void JSONDocument::parseFile(std::string const& filepath)
 	buffer << t.rdbuf();
 	std::string fileContents = buffer.str();
 
-	std::cout << fileContents << std::endl;
+	std::stack<JSONAttribute> objects
+
+	for (char const& c : fileContents)
+	{
+		if ()
+	}
 }
